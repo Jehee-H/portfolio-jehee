@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.koreanFont {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.centerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+    margin-top: 50px;
+}
+
+h2 {
+
+    font-size: 2em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}

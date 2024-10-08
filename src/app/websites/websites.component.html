@@ -1,0 +1,23 @@
+<div class="websites-container centerContainer">
+    <h2 class="">ERFAHRUNGEN:</h2>
+
+    <div class="contentText">
+        <div class="infoBox" *ngFor="let webExp of webExperienceList">
+            {{webExp.topic}}
+            <li *ngFor="let name of webExp.name">{{ name }}</li>
+        </div>
+    </div>
+    <h2 class="websitesHeadline">WEBSEITEN BEISPIEL:</h2>
+
+    <div class="contentContainer">
+        <div class="websiteContainer" *ngFor="let webExample of webExampleList">
+            <a href={{webExample.website}}>
+                <div class="exampleContainer">
+                    <p>
+                        {{webExample.name}}
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
